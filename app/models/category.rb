@@ -5,4 +5,6 @@ has_one_attached :image
 
 validates :title, presence: true
 
+scope :ording, -> { order(:title) }
+
 end
