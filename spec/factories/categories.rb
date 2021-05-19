@@ -1,5 +1,5 @@
 FactoryBot.define do
   factory :category do
-    title { Faker::Restaurant.type }
+    title { "MyString" }
   end
 end
