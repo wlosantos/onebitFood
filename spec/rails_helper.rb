@@ -52,14 +52,14 @@ RSpec.configure do |config|
   end
 
   # FACTORY_BOT
-  config.include FactoryBot::Syntax::Methods
+  # config.include FactoryBot::Syntax::Methods
   # Support tests
   config.include RequestSpecHelper
 
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
   # instead of true.
-  config.use_transactional_fixtures = false
+  config.use_transactional_fixtures = true
 
   # You can uncomment this line to turn off ActiveRecord support entirely.
   # config.use_active_record = false
